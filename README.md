@@ -13,8 +13,8 @@ The application is deployed using AWS CDK with the following infrastructure:
 
 ## Screenshots
 
-![Test coverage](./screenshots/test-coverage.png)
-![Google Page Speed](./screenshots/google-page-speed.png)
+![Test coverage](./screenshots/screenshots.png)
+![Google Page Speed](./screenshots/page-speed-insights.png)
 
 ## CLI commands
 

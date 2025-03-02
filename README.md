@@ -22,6 +22,12 @@ The application is deployed using AWS CDK with the following infrastructure:
 npm install
 ```
 
+## Copy .env.example to .env and set the variables
+
+```bash
+cp ./site/.env.example ./site/.env
+```
+
 ## Running the app
 
 ```bash

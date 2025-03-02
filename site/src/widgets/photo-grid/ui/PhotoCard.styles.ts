@@ -83,7 +83,6 @@ export const PhotoInfo = styled.div`
   padding: 12px;
 `
 
-// disable click change color for underline
 export const PhotographerName = styled.p`
   color: var(--text-color);
   font-size: 14px;

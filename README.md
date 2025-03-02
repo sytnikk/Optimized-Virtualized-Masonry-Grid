@@ -2,9 +2,19 @@
 
 URL: https://d3ivr0dgao50ut.cloudfront.net/
 
-## Hosting on AWS
+Google Page Speed: https://pagespeed.web.dev/analysis/https-d3ivr0dgao50ut-cloudfront-net/umrhn2yub2?form_factor=mobile
 
-Cloudfront  -> S3
+## AWS Deployment
+
+The application is deployed using AWS CDK with the following infrastructure:
+
+- **S3 Bucket:** Hosts the static React application
+- **CloudFront:** CDN for global content delivery and caching
+
+## Screenshots
+
+![Test coverage](./screenshots/test-coverage.png)
+![Google Page Speed](./screenshots/google-page-speed.png)
 
 ## CLI commands
 
@@ -31,6 +41,14 @@ npm run build
 ```
 
 ## Deploying to AWS
+
+Setup AWS credentials:
+
+```bash
+aws configure
+```
+
+Deploy the application:
 
 ```bash
 npm run deploy

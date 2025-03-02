@@ -82,10 +82,8 @@ describe('PhotoGrid', () => {
   ]
 
   beforeEach(() => {
-    // Reset all mocks
     vi.resetAllMocks()
     
-    // Mock hooks
     vi.spyOn(useResponsiveColumnsModule, 'useResponsiveColumns').mockReturnValue(2)
     
     vi.spyOn(usePhotoDistributionModule, 'usePhotoDistribution').mockReturnValue([
